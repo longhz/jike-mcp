@@ -24,7 +24,15 @@
 pip install mcp qrcode
 ```
 
-### Claude Code 配置
+### CLAUDE.md（推荐）
+
+复制 `CLAUDE.md` 到项目目录，让 AI 遵循 jike-mcp 使用准则：
+
+```bash
+curl -o CLAUDE.md https://raw.githubusercontent.com/longhz/jike-mcp/main/CLAUDE.md
+```
+
+### Claude Code MCP 配置
 
 在 `~/.claude.json` 的 `mcpServers` 中添加：
 
